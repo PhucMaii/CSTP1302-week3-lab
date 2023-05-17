@@ -44,6 +44,7 @@
             // 
             // textBox1
             // 
+            textBox1.BackColor = SystemColors.Info;
             textBox1.Location = new Point(257, 107);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
@@ -52,6 +53,7 @@
             // 
             // textBox2
             // 
+            textBox2.BackColor = Color.FromArgb(128, 255, 255);
             textBox2.Location = new Point(257, 136);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
@@ -78,43 +80,50 @@
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.HotTrack;
+            button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(227, 183);
             button1.Name = "button1";
             button1.Size = new Size(35, 24);
             button1.TabIndex = 4;
             button1.Text = "+";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.HotTrack;
+            button2.ForeColor = SystemColors.ButtonHighlight;
             button2.Location = new Point(350, 183);
             button2.Name = "button2";
             button2.Size = new Size(35, 24);
             button2.TabIndex = 5;
             button2.Text = "/";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.ForeColor = SystemColors.ActiveCaptionText;
+            button3.BackColor = SystemColors.HotTrack;
+            button3.ForeColor = SystemColors.ButtonHighlight;
             button3.Location = new Point(309, 183);
             button3.Name = "button3";
             button3.Size = new Size(35, 24);
             button3.TabIndex = 6;
             button3.Text = "*";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.BackColor = SystemColors.HotTrack;
+            button4.ForeColor = SystemColors.ButtonHighlight;
             button4.Location = new Point(268, 183);
             button4.Name = "button4";
             button4.Size = new Size(35, 24);
             button4.TabIndex = 7;
             button4.Text = "-";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // label3
@@ -129,6 +138,7 @@
             // 
             // textBox3
             // 
+            textBox3.BackColor = Color.OldLace;
             textBox3.Location = new Point(257, 231);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
@@ -137,6 +147,8 @@
             // 
             // listBox1
             // 
+            listBox1.BackColor = Color.IndianRed;
+            listBox1.ForeColor = SystemColors.Menu;
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
             listBox1.Location = new Point(440, 107);
@@ -171,6 +183,7 @@
             Controls.Add(label1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
+            ForeColor = SystemColors.ActiveCaptionText;
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);

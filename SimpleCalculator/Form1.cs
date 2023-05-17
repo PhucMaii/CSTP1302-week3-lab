@@ -78,6 +78,6 @@ namespace SimpleCalculator
             textBox3.Text = res.ToString();
             listBox1.Items.Add(num1.ToString() + " / " + num2.ToString() + " = " + res.ToString());
         }
-    
+
     }
 }
